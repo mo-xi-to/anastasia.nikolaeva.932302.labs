@@ -1,0 +1,11 @@
+.inline-block {
+    width: 180px;
+    height: 80px;
+    display: inline-block;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.block {
+    background-color: bisque;
+}
