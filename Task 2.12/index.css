@@ -1,0 +1,24 @@
+.content {
+    border: 2px solid forestgreen;
+    background-color: aqua;
+}
+
+.content__nav {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+
+.content__nav ul {
+    background-color: bisque;
+    padding: 10px 10px 10px 40px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.content__text {
+    display: inline-block;
+    max-width: 69%;
+    background-color: darkgray;
+}
+
