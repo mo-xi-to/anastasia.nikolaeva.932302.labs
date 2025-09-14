@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+.block {
+    width: 600px;
+    background-color: green;
+    color: #fff;
+}
+
+.block-with-padding {
+    width: 600px;
+    padding: 35px;
+    border: 10px solid blue;
+    background-color: blue;
+    color: #fff;
+}
