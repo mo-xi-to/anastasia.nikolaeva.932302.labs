@@ -1,0 +1,11 @@
+.block {
+    width: 600px;
+    margin: 0 auto;
+    background-color: blue;
+    color: #fff;
+}
+
+.block img {
+    float: right;
+    margin: 0 0 20px 20px;
+}
