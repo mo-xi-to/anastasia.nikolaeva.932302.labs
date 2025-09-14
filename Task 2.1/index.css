@@ -1,0 +1,56 @@
+.header {
+    padding: 10px 10px 30px 10px;
+    background-color: #EAEAEA;
+}
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a {
+    color: #FFFF80;
+}
+
+.content {
+    flex: 1 1 auto;
+    display: flex;
+	line-height: 1.35em;
+}
+
+.content__sidebar {
+    flex: 0 0 200px;
+    background-color: #C8FC98;
+    padding: 5px 10px;
+}
+
+.content__text {
+    flex: 1;
+    padding: 5px 10px;
+}
+
+.content__column-title {
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content__column-title span {
+    color: red;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    margin: 0;
+}
