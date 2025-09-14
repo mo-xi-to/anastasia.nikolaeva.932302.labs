@@ -1,0 +1,9 @@
+.content {
+    display: flex;
+    border: 1px solid green;
+}
+
+.content__text {
+    background-color: aqua;
+    flex: auto 1 1;
+}
