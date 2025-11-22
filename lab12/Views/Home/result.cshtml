@@ -1,0 +1,13 @@
+﻿@model lab12.Models.CalculationExpressionModel
+
+@{
+    string action = ViewContext.RouteData.Values["Action"]?.ToString() ?? "Result";
+    ViewData["Title"] = action;
+}
+
+<h1>Result</h1>
+
+<div style="font-size: 24px; margin-top: 20px;">
+
+    @Model.firstNumber @Model.operation @Model.secondNumber = @ViewData["Result"]
+</div>
